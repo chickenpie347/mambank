@@ -1,0 +1,34 @@
+{
+  "artifact_id": "AMP-TOY-0001",
+  "title": "Artificial Memory Prosthesis \u2014 Toy Model",
+  "version": "0.1",
+  "created": "2026-11-10",
+  "status": "conceptual_toy_model_not_validated",
+  "provenance": [
+    "User request in current conversation: create toy model for BCI-linked external memory support for Alzheimer's patients",
+    "User-uploaded source: membank_paper.pdf, 'MemBank: Pointer-Based Neural Activation Memory for Open-Source LLMs', 19 pages"
+  ],
+  "source_relationship": "High-level inspiration only; does not implement MemBank activation tensors or HGNS",
+  "components": [
+    "episodic_records",
+    "content_addressed_deduplication_sha256",
+    "simulated_bci_text_cue_interface",
+    "cue_similarity_retrieval",
+    "encoding_loss_simulation",
+    "retrieval_cue_degradation_simulation",
+    "human_confirmation_boundary"
+  ],
+  "limitations": [
+    "No neural signal acquisition or decoding",
+    "No neural stimulation",
+    "No clinical data or validation",
+    "Not a medical device or treatment",
+    "Cannot recover events never captured accurately"
+  ],
+  "files": [
+    "memory_prosthesis_toy.py",
+    "README.md",
+    "research_note.md",
+    "manifest.json"
+  ]
+}
